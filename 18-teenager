@@ -1,13 +1,15 @@
 public Boolean isTeenager(Integer age) {
-    //code here
+    //declaring class
     boolean isTeenager;
-
+    //declaring integer
     if (age >12 && age <20)
+    //if condition
     {
         isTeenager = true;
         
     }
     else 
+//else condition
     {isTeenager = false;
     }
     return isTeenager;
