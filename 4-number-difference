@@ -1,21 +1,18 @@
 public Integer diff(Integer a, Integer b) {
     
-    int a;
-    int b;
-    int c;
 
-    if ( a > b)
+    if (( a - b) >= 0)
     {
-        c = a - b;
+        return (a - b);
         
     }
-    return c;
+   
 
     else 
     {
-        c = b- a;
+     return (b - a);
        
     }
 
-     return c;
+     
 }      
