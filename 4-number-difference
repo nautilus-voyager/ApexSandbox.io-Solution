@@ -1,5 +1,5 @@
 public Integer diff(Integer a, Integer b) {
-    
+    // checking if the difference between the two integers is greater or equal to zero
 
     if (( a - b) >= 0)
     {
@@ -7,7 +7,7 @@ public Integer diff(Integer a, Integer b) {
         
     }
    
-
+    //If the difference in the first scenario does not equate to zero or falls in the negative, then the opposite
     else 
     {
      return (b - a);
