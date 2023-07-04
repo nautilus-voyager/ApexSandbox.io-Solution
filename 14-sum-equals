@@ -1,21 +1,13 @@
 public Boolean sumEquals(Integer a, Integer b, Integer c) {
-    //code here
-    
+
     boolean bl;
-
     If ( c == a+b) 
-       
         {
-            bl = true;
-            
+            bl = true;   
         }
-
     else
     {
-        bl = false;
-       
+        bl = false;  
     }
-    
     return bl;
-    
-    
+}
