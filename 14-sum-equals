@@ -5,16 +5,17 @@ public Boolean sumEquals(Integer a, Integer b, Integer c) {
     int c;
 
     boolean bl;
-    If (
+    If {
         c == a+b;
         {
             bl = true;
+            return bl;
         }
 
     else
     {
         bl = false;
+        return bl;
     }
-    )
-    return bl;
-}
+    }
+    
