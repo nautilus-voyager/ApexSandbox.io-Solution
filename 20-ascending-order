@@ -1,15 +1,15 @@
 public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
     boolean k;
-    if (a>= b)
+    if (a>=b)
      {if (b>=c)
-     {
+       {
          k = true;
-     }
+       }
      else
-     {k  = false;
+       {
+        k  = false;
+       }
      
      }
-     
-     }
-
+     return k;
 }
